@@ -125,6 +125,7 @@
             this.buttonVider.TabIndex = 4;
             this.buttonVider.Text = "Vider";
             this.buttonVider.UseVisualStyleBackColor = true;
+            this.buttonVider.Click += new System.EventHandler(this.buttonVider_Click);
             // 
             // buttonOK
             // 
@@ -134,6 +135,7 @@
             this.buttonOK.TabIndex = 5;
             this.buttonOK.Text = "OK";
             this.buttonOK.UseVisualStyleBackColor = true;
+            this.buttonOK.Click += new System.EventHandler(this.buttonOK_Click);
             // 
             // labelPrenom
             // 
@@ -192,16 +194,16 @@
         #endregion
 
         private ToolStrip toolStrip1;
-        private ToolStripButton toolStripButton1;
-        private ToolStripButton toolStripButton2;
+        public ToolStripButton toolStripButton1;
+        public ToolStripButton toolStripButton2;
         private Panel panel1;
         private SplitContainer splitContainer1;
-        private ListView listView1;
-        private Button buttonVider;
-        private Button buttonOK;
-        private Label labelPrenom;
-        private TextBox textBoxPrenom;
-        private TextBox textBoxNom;
-        private Label labelNom;
+        public ListView listView1;
+        public Button buttonVider;
+        public Button buttonOK;
+        public Label labelPrenom;
+        public TextBox textBoxPrenom;
+        public TextBox textBoxNom;
+        public Label labelNom;
     }
 }
