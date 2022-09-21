@@ -35,12 +35,12 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.listView1 = new System.Windows.Forms.ListView();
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.buttonVider = new System.Windows.Forms.Button();
+            this.buttonOK = new System.Windows.Forms.Button();
+            this.labelPrenom = new System.Windows.Forms.Label();
+            this.textBoxPrenom = new System.Windows.Forms.TextBox();
+            this.textBoxNom = new System.Windows.Forms.TextBox();
+            this.labelNom = new System.Windows.Forms.Label();
             this.toolStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
@@ -99,12 +99,12 @@
             // 
             // splitContainer1.Panel2
             // 
-            this.splitContainer1.Panel2.Controls.Add(this.button1);
-            this.splitContainer1.Panel2.Controls.Add(this.button2);
-            this.splitContainer1.Panel2.Controls.Add(this.label2);
-            this.splitContainer1.Panel2.Controls.Add(this.textBox2);
-            this.splitContainer1.Panel2.Controls.Add(this.textBox1);
-            this.splitContainer1.Panel2.Controls.Add(this.label1);
+            this.splitContainer1.Panel2.Controls.Add(this.buttonVider);
+            this.splitContainer1.Panel2.Controls.Add(this.buttonOK);
+            this.splitContainer1.Panel2.Controls.Add(this.labelPrenom);
+            this.splitContainer1.Panel2.Controls.Add(this.textBoxPrenom);
+            this.splitContainer1.Panel2.Controls.Add(this.textBoxNom);
+            this.splitContainer1.Panel2.Controls.Add(this.labelNom);
             this.splitContainer1.Size = new System.Drawing.Size(776, 410);
             this.splitContainer1.SplitterDistance = 258;
             this.splitContainer1.TabIndex = 0;
@@ -117,55 +117,55 @@
             this.listView1.TabIndex = 0;
             this.listView1.UseCompatibleStateImageBehavior = false;
             // 
-            // label1
+            // buttonVider
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(3, 3);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(34, 15);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Nom";
+            this.buttonVider.Location = new System.Drawing.Point(3, 94);
+            this.buttonVider.Name = "buttonVider";
+            this.buttonVider.Size = new System.Drawing.Size(75, 23);
+            this.buttonVider.TabIndex = 4;
+            this.buttonVider.Text = "Vider";
+            this.buttonVider.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // buttonOK
             // 
-            this.textBox1.Location = new System.Drawing.Point(3, 21);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(508, 23);
-            this.textBox1.TabIndex = 1;
+            this.buttonOK.Location = new System.Drawing.Point(84, 94);
+            this.buttonOK.Name = "buttonOK";
+            this.buttonOK.Size = new System.Drawing.Size(75, 23);
+            this.buttonOK.TabIndex = 5;
+            this.buttonOK.Text = "OK";
+            this.buttonOK.UseVisualStyleBackColor = true;
             // 
-            // textBox2
+            // labelPrenom
             // 
-            this.textBox2.Location = new System.Drawing.Point(3, 65);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(508, 23);
-            this.textBox2.TabIndex = 2;
+            this.labelPrenom.AutoSize = true;
+            this.labelPrenom.Location = new System.Drawing.Point(3, 47);
+            this.labelPrenom.Name = "labelPrenom";
+            this.labelPrenom.Size = new System.Drawing.Size(49, 15);
+            this.labelPrenom.TabIndex = 3;
+            this.labelPrenom.Text = "Prénom";
             // 
-            // label2
+            // textBoxPrenom
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(3, 47);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(49, 15);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Prénom";
+            this.textBoxPrenom.Location = new System.Drawing.Point(3, 65);
+            this.textBoxPrenom.Name = "textBoxPrenom";
+            this.textBoxPrenom.Size = new System.Drawing.Size(508, 23);
+            this.textBoxPrenom.TabIndex = 2;
             // 
-            // button1
+            // textBoxNom
             // 
-            this.button1.Location = new System.Drawing.Point(3, 94);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "Vider";
-            this.button1.UseVisualStyleBackColor = true;
+            this.textBoxNom.Location = new System.Drawing.Point(3, 21);
+            this.textBoxNom.Name = "textBoxNom";
+            this.textBoxNom.Size = new System.Drawing.Size(508, 23);
+            this.textBoxNom.TabIndex = 1;
             // 
-            // button2
+            // labelNom
             // 
-            this.button2.Location = new System.Drawing.Point(84, 94);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 5;
-            this.button2.Text = "OK";
-            this.button2.UseVisualStyleBackColor = true;
+            this.labelNom.AutoSize = true;
+            this.labelNom.Location = new System.Drawing.Point(3, 3);
+            this.labelNom.Name = "labelNom";
+            this.labelNom.Size = new System.Drawing.Size(34, 15);
+            this.labelNom.TabIndex = 0;
+            this.labelNom.Text = "Nom";
             // 
             // Form1
             // 
@@ -197,11 +197,11 @@
         private Panel panel1;
         private SplitContainer splitContainer1;
         private ListView listView1;
-        private Button button1;
-        private Button button2;
-        private Label label2;
-        private TextBox textBox2;
-        private TextBox textBox1;
-        private Label label1;
+        private Button buttonVider;
+        private Button buttonOK;
+        private Label labelPrenom;
+        private TextBox textBoxPrenom;
+        private TextBox textBoxNom;
+        private Label labelNom;
     }
 }
